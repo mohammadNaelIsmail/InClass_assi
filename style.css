@@ -1,0 +1,49 @@
+header{
+    background-color: #F0F0F0;
+    padding: 10px;
+    position: fixed ;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    text-align: center;
+}
+article{
+Width: 60%;
+Margin: 20px auto;
+Background-color: #E0E0E0;
+Padding: 15px;
+z-index: 2;
+}
+aside{
+    position: absolute;
+Width: 30%;
+Margin: 20px auto;
+Background-color: #D0D0D0;
+Padding: 15px;
+ 
+  left: 100%; 
+  width: 200px; 
+  z-index: 3;
+}
+footer{
+    z-index: 1;
+position: fixed;
+Background-color: #C0C0C0;
+Padding: 10px;
+bottom: 0;
+  left: 0;
+  right: 0;
+}
+main{
+    margin-top: 60px;
+  }
+nav{
+    z-index: 4;
+    position: sticky;
+    Background-color:#C0C0C0;    
+    bottom: 0;
+    border: 2px solid;    
+    width: 100%;                                  
+
+}
